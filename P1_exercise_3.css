@@ -15,9 +15,5 @@
 .shape:hover {
 	background-color: blue;
 	transition-duration: 3s;
-}
-
-.shape:hover {
-	background-color: red;
-	transition-duration: 3s;
+	transition-behavior: revert;
 }
