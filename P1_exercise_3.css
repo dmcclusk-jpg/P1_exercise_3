@@ -15,15 +15,6 @@
 .shape:hover {
 	background-color: blue;
 	transition-duration: 3s;
+	transition-timing-function: ease-in-out;
 }
 
-.shape {
-	width: 200px;
-	height: 200px;
-	background-color: blue;
-}
-
-.shape:hover {
-	background-color: red;
-	transition-duration: 3s;
-}
