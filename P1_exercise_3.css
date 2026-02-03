@@ -14,7 +14,8 @@
 
 .shape:hover {
 	background-color: blue;
-	transition-duration: 3s;
+	transition-property: background-color;
+	transition-duration: 1s;
 	transition-timing-function: ease-in-out;
 }
 
