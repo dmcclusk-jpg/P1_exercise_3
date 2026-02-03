@@ -10,12 +10,13 @@
 	width: 200px;
 	height: 200px;
 	background-color: red;
+		transition-property: background-color;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
 }
 
 .shape:hover {
 	background-color: blue;
-	transition-property: background-color;
-	transition-duration: 1s;
-	transition-timing-function: ease-in-out;
+
 }
 
